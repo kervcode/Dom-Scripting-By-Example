@@ -20,7 +20,7 @@ function createLI(text) {
     li.appendChild(editButton);
 
     const removeButton = document.createElement('button');
-    button.textContent ='Removed';
+    button.textContent ='Removed ';
     li.appendChild(button);
     return li;
 }
